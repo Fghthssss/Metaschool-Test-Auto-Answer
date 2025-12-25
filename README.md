@@ -25,7 +25,6 @@ document.querySelectorAll('input[type="hidden"][name^="inputCorrectAnswerId"]').
 ## Alternative Version (with logging)
 
 ```javascript
-// Version with console logging
 document.querySelectorAll('input[type="hidden"][name^="inputCorrectAnswerId"]').forEach(input => {
     const n = input.name.match(/inputCorrectAnswerId(\d+)/)[1];
     const correctId = input.value;
