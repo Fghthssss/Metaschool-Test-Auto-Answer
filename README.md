@@ -22,7 +22,8 @@ document.querySelectorAll('input[type="hidden"][name^="inputCorrectAnswerId"]').
     if (radio) radio.checked = true;
 });
 ```
-# Or
+## Alternative Version (with logging)
+
 ```javascript
 // Version with console logging
 document.querySelectorAll('input[type="hidden"][name^="inputCorrectAnswerId"]').forEach(input => {
