@@ -21,6 +21,7 @@ document.querySelectorAll('input[type="hidden"][name^="inputCorrectAnswerId"]').
     const radio = document.querySelector(`input[name="inputAnswerId${n}"][value="${correctId}"]`);
     if (radio) radio.checked = true;
 });
+```
 # Or
 ```javascript
 // Version with console logging
