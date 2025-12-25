@@ -1,4 +1,4 @@
-# Metaschool-auto-solver-test
+# Metaschool Test Auto Answer
 A browser console script that automatically selects correct answers on Metaschool test pages.
 Usage
 Open the test page (e.g., https://metaschool.ru/pub/test/index.php?testId=21)
