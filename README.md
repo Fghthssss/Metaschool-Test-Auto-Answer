@@ -20,5 +20,5 @@ document.querySelectorAll('input[type="hidden"][name^="inputCorrectAnswerId"]').
 });
 ```
 
-Note
+Note:
 For educational purposes only.
